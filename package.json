@@ -193,8 +193,8 @@
   "exports": {
     "node": {
       "import": "./edition-es2019-esm/index.js",
-      "default": "./index.cjs",
-      "require": "./edition-esnext/index.js"
+      "require": "./edition-esnext/index.js",
+      "default": "./index.cjs"
     },
     "browser": {
       "import": "./edition-browsers/index.js"
